@@ -8,8 +8,12 @@ class Header extends Component {
                     <a className="navbar-brand" href="Dashboard.html">
                         Personal Project Management Tool
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#mobile-nav">
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#mobile-nav"
+                    >
                         <span className="navbar-toggler-icon"/>
                     </button>
 
