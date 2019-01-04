@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import classnames from "classnames";
-import {getProjectTask} from "../../../action/backlogActions";
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
 import {getProjectTask, updateProjectTask} from "../../../action/backlogActions";
@@ -185,13 +184,13 @@ class UpdateProjectTask extends Component {
 
 UpdateProjectTask.propTypes = {
     getProjectTask: PropTypes.func.isRequired,
-    project_task: PropTypes.object.isRequired
+    project_task: PropTypes.object.isRequired,
     updateProjectTask: PropTypes.func.isRequired,
     errors: PropTypes.object.isRequired
 };
 
 const mapStateToProps = state => ({
-    project_task: state.backlog.project_task
+    project_task: state.backlog.project_task,
     errors: state.errors
 });
 
