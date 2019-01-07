@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
-import {deleteProject} from "../../action/projectAction";
+import {deleteProject} from "../../actions/projectAction";
 
 class ProjectItem extends Component {
     onDeleteClick = id => {

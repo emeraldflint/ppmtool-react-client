@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import {deleteProjectTask} from "../../../action/backlogActions";
+import {deleteProjectTask} from "../../../actions/backlogActions";
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
 

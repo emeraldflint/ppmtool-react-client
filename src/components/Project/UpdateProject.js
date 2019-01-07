@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {getProject, createProject} from "../../action/projectAction";
+import {getProject, createProject} from "../../actions/projectAction";
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import classnames from "classnames";

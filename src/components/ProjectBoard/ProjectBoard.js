@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import Backlog from "./Backlog";
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
-import {getBacklog} from "../../action/backlogActions";
+import {getBacklog} from "../../actions/backlogActions";
 
 class ProjectBoard extends Component {
     //constructor to handle errors
